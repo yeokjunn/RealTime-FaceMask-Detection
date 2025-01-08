@@ -39,6 +39,16 @@ pip install tensorflow keras opencv-python-headless numpy matplotlib imutils sci
 ## Model Overview
 The pre-trained model (mask_detector2.keras) was trained on a dataset containing images of people with and without face masks. The model was fine-tuned using MobileNetV2 as the base architecture, ensuring high accuracy and fast inference on real-time video streams.
 
+## Machine Learning Models
+**TensorFlow**:
+TensorFlow is an open-source machine learning framework developed by Google. It allows developers to build and train deep learning models with ease, offering both flexibility and performance. In my project, TensorFlow provided the underlying tools for constructing and optimizing the neural network.
+
+**Keras**:
+Keras is a high-level API built on top of TensorFlow. It simplifies the process of building neural networks by providing an easy-to-use interface. In my project, I used Keras to define the model architecture, including the MobileNetV2 base model and custom layers.
+
+**MobileNetV2**:
+MobileNetV2 is a convolutional neural network architecture designed for mobile and embedded devices. It is efficient because it uses depthwise separable convolutions, significantly reducing computation while maintaining accuracy. Since real-time detection requires fast inference, MobileNetV2 was a great choice for my project.
+
 ### Key Features
 
 **Real-time detection**: The program uses OpenCV to process frames from the webcam in real-time.
