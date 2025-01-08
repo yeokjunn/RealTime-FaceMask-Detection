@@ -54,6 +54,6 @@ Data augmentation: The model was trained with augmented data to improve its robu
 ---
 
 ## Acknowledgments
-TensorFlow
-OpenCV
-Keras
+- TensorFlow
+- OpenCV
+- Keras
