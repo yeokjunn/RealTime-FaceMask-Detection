@@ -40,9 +40,11 @@ pip install tensorflow keras opencv-python-headless numpy matplotlib imutils sci
 The pre-trained model (mask_detector2.keras) was trained on a dataset containing images of people with and without face masks. The model was fine-tuned using MobileNetV2 as the base architecture, ensuring high accuracy and fast inference on real-time video streams.
 
 Key Features
-Real-time detection: The program uses OpenCV to process frames from the webcam in real-time.
-High accuracy: The MobileNetV2-based model achieves high precision and recall for mask detection.
-Data augmentation: The model was trained with augmented data to improve its robustness to different lighting conditions and orientations.
+**Real-time detection**: The program uses OpenCV to process frames from the webcam in real-time.
+
+**High accuracy**: The MobileNetV2-based model achieves high precision and recall for mask detection.
+
+**Data augmentation**: The model was trained with augmented data to improve its robustness to different lighting conditions and orientations.
 
 ---
 
