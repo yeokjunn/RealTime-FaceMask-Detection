@@ -39,6 +39,8 @@ pip install tensorflow keras opencv-python-headless numpy matplotlib imutils sci
 ## Model Overview
 The pre-trained model (mask_detector2.keras) was trained on a dataset containing images of people with and without face masks. The model was fine-tuned using MobileNetV2 as the base architecture, ensuring high accuracy and fast inference on real-time video streams.
 
+---
+
 ## Machine Learning Models
 **TensorFlow**:
 TensorFlow is an open-source machine learning framework developed by Google. It allows developers to build and train deep learning models with ease, offering both flexibility and performance. In my project, TensorFlow provided the underlying tools for constructing and optimizing the neural network.
